@@ -1,0 +1,5 @@
+name: TitleDamage
+version: ${project.version}
+main: com.github.advancedmical.titledamage.Main
+api-version: 1.13
+authors: [Mical]
