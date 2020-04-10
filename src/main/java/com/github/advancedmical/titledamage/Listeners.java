@@ -15,9 +15,6 @@ public class Listeners implements Listener {
     public void onDamage(EntityDamageEvent event){
         if (event.getEntityType() == EntityType.PLAYER){
             Player player = (Player) event.getEntity();
-                    if (player.getHealth() < 10.0D){
-                        player.sendTitle(JavaPlugin.getPlugin(Main.class).getConfig().getString("bufittitle"), null, 10, 50, 20);
-                    }
                     if (player.getHealth() < 4.0D){
                         player.sendTitle(JavaPlugin.getPlugin(Main.class).getConfig().getString("weititle"), null, 10, 50, 20);
                     }
